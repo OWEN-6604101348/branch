@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div class="q-pa-md" style="max-width: 400px">
     <q-form
       @submit="onSubmit"
@@ -74,4 +75,13 @@ export default {
     }
   }
 }
+=======
+  <router-view />
+</template>
+
+<script setup>
+defineOptions({
+  name: 'App'
+});
+>>>>>>> 295ffcd8e6d4681622d33d04a0a381ee1467ac6f
 </script>
